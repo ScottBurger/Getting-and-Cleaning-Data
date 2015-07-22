@@ -2,7 +2,7 @@
 
 Hi there and thanks for evaluating my assignment!
 
-For the run_analysis.R script to work, you should drop it into the directory that the UCI HAR Dataset is in, then change the setwd() line I have to where that directory is stored on your local machine. Now it is able to run!
+For the run_analysis.R script to work, you should drop it into the directory that the UCI HAR Dataset is in, then change the setwd() line (should be line 4) I have to where that directory is stored on your local machine. Now it is able to run!
 
 The script works by first reading the test and train data for each x,y, and subject, then merges them appropriately (ie, loads x_train, then x_test, then merges the two by rows).
 
